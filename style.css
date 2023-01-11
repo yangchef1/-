@@ -1,3 +1,85 @@
 .hidden {
     display: none;
 }
+
+.body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: solid;
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.greetingFont {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Geogia ;
+}
+
+.clockFont {
+    font-size: 170px;
+    font-weight: 500;
+    font-family: Geogia ;
+}
+
+.quoteFont {
+    font-family: 'Times New Roman', Times, serif ;  
+    font-size: 22px;
+    position: relative;
+    bottom: 70px;
+}
+
+.authorFont {
+    font-family: 'Times New Roman', Times, serif ;  
+    font-size: 15px;
+    position: relative;
+    bottom: 70px;
+}
+
+.toDoFont {
+    font-family: Geogia ;
+}
+
+.weatherFont {
+    font-family: Geogia ;
+    position: absolute;
+    left: 1390px;
+    bottom: 10px;
+}
+
+input {
+    width: 500px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: white;
+  }
+
+.toDoLi {
+    position: absolute;
+    top: 500px;
+    right: 20px;
+  }
+
+button {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 9px 18px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+
+.greetingPosition {
+    position: relative;
+    top: 70px;
+}
