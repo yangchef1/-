@@ -17,6 +17,11 @@
     font-family: Geogia ;
 }
 
+.grt {
+    position: relative;
+    bottom: 70px;
+}
+
 .clockFont {
     font-size: 170px;
     font-weight: 500;
@@ -27,14 +32,14 @@
     font-family: 'Times New Roman', Times, serif ;  
     font-size: 22px;
     position: relative;
-    bottom: 70px;
+    bottom: 40px;
 }
 
 .authorFont {
     font-family: 'Times New Roman', Times, serif ;  
     font-size: 15px;
     position: relative;
-    bottom: 70px;
+    bottom: 40px;
 }
 
 .toDoFont {
@@ -75,7 +80,7 @@ button {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     font-weight: 600;
-    transition: 0.25s;
+    transition: 0.25s;  
 }
 
 
